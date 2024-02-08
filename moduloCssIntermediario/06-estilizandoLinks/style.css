@@ -1,0 +1,19 @@
+#link{
+    cursor: progress;
+    margin: 20px;
+    padding: 10px;
+}
+
+#link:visited{
+    color: red;
+}
+
+
+#link:active{
+    color: greenyellow;
+}
+
+#link:hover{
+    background-color: black;
+    color: white;
+}

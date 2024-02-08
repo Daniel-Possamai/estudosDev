@@ -1,0 +1,98 @@
+
+
+
+
+
+
+
+.alinhadoEsquerda {
+    text-align: left;
+}
+
+.alinhadoDireita {
+    text-align: right;
+}
+
+.alinhadoCentro {
+    text-align: center;
+}
+
+.alinhadoJustificado {
+    text-align: justify;
+}
+
+
+.maiuscula {
+    text-transform: uppercase;
+}
+
+.minuscula {
+    text-transform: lowercase;
+}
+
+.capitalizado {
+    text-transform: capitalize;
+}
+
+/* Text Decoration */
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.linhaSobreposta {
+    text-decoration: line-through;
+}
+
+.semTextDecoration {
+    text-decoration: none;
+}
+
+
+/* Letter SPACING */
+
+.alturaEntreLinhas {
+    line-height: 40px;
+}
+
+
+
+
+
+/* SOMBRA NO TEXTO */
+
+.sombraDeTexto {
+    text-shadow: 10px 10px 1px #808080;
+}
+
+
+
+
+/* GERAL */
+
+
+
+
+.fundoAlinhamento{
+    padding: 20px;
+    background-color: #d1c4e9;
+}
+
+.fundoTransform{
+    padding: 20px;
+    background-color: #c8e6c9;
+}
+
+.fundoDecoration{
+    padding: 20px;
+    background-color: #fff9c4;
+}
+
+.fundo {
+    padding: 20px;
+    background-color: #ccc;
+}
+
+html{
+    font-size: 24px;
+}

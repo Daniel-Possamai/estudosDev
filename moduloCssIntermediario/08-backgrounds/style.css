@@ -1,0 +1,41 @@
+p {
+    color: orange;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.bg {
+    background-color: lightgreen;
+    background-image: url('./images/cat.png');
+}
+
+.bgImage {
+    width: 513px;
+    height: 340px;
+}
+
+
+
+.bgRepeat {
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+
+.bgSizeCover {
+    background-size: cover;
+    height: 540px;
+}
+
+.bgFixed {
+    background-attachment: fixed;
+    height: 540px;
+}
+
+.bgPosition {
+    background: black url('./images/cat.png')
+    no-repeat bottom right;
+    /* background-position: bottom right;
+    background-repeat: no-repeat; */
+    height: 540px;
+}

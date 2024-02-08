@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Milky';
+    src: url('./fonts/MilkyNice.otf'),
+    url('./fonts/MilkyNice.ttf');
+}
+
+p{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Milky', 'Courier New', Courier, monospace;
+}

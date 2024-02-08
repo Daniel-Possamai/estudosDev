@@ -1,0 +1,20 @@
+div{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid green;
+
+}
+
+.comBorderBox{
+    background-color: aquamarine;
+    box-sizing: border-box;
+
+}
+.semBorderBox{
+    background-color: brown;
+}
+
+/* largura + padding esquerda + padding direita + border esquerda
+ + border direita = largura total do elemento */
+/* altura idem */

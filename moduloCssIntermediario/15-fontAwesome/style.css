@@ -1,0 +1,11 @@
+.fa-instagram {
+    display: inline-block;
+    color: orange;
+    padding: 100px;
+    background-color: black;
+}
+
+.fa-facebook:hover{
+    color: red;
+}
+

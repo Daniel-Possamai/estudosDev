@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    width: 300px;
+}
+
+
+h2{
+    font-size: 2vw;
+    
+    
+}
+
+.vh{
+    text-align: center;
+    font-size: 20vh;
+}
+
+.primeiroElemento{
+    width: 100vw;
+    background-color: blue;
+}
+
+.segundoElemento{
+    width: 100%;
+    background-color: red;
+}
