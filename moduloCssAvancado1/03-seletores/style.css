@@ -1,0 +1,26 @@
+p, span {
+    font: 20px;
+}
+
+.sobre .texto {
+    color: orange;
+}
+
+/* ----------------------------------------
+pai > fiilho{
+    propriedade: valor;
+} 
+-------------------------------------------
+*/
+
+div > p {
+    background-color: purple;
+}
+
+div + p {
+    background-color: green;
+}
+
+a[target=_blank]{
+    color: red;
+}

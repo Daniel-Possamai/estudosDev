@@ -1,0 +1,29 @@
+:root{
+    --corPadrao: green;
+    --tamanhoDeFontePadrao: 26px;
+}
+
+
+h2{
+    --corBackground: red;
+    color: var(--corPadrao, blue);
+    font-size: var(--tamanhoDeFontePadrao, 5px);
+    background-color: var(--corBackground);
+}
+
+h3{
+    color: var(--corPadrao, blue);
+    font-size: var(--tamanhoDeFontePadrao, 5px);
+}
+
+
+p{
+    color: var(--corPadrao, blue);
+    font-size: var(--tamanhoDeFontePadrao, 5px);
+}
+
+span{
+    color: var(--corPadrao, blue);
+    font-size: var(--tamanhoDeFontePadrao, 5px);
+}
+

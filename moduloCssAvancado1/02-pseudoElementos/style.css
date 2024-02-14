@@ -1,0 +1,31 @@
+/* seletor::pseudoElemento{
+    propriedade: valor;
+} */
+
+.first-letter::first-letter {
+    color: red;
+}
+
+.first-line::first-line{
+    color: blue;
+}
+
+li::marker{
+    color: orange;
+    font-size: 28px;
+}
+.before::before{
+    content: "";
+    background: url(images/htmlImg.png) center center no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.after::after{
+    content: "";
+    background: url(images/htmlImg.png) center center no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
