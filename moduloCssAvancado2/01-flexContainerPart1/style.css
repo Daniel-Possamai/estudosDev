@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row-reverse wrap;
+}
+
+.container div{
+    background-color: blue;
+    color: red;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}

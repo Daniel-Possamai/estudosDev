@@ -1,0 +1,23 @@
+.flexStart{
+    justify-content: flex-start;
+}
+
+.flexEnd{
+    justify-content: flex-end;
+}
+
+.flexCenter{
+    justify-content: center;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+.spaceAround{
+    justify-content: space-around;
+}
+
+.spaceEvenly{
+    justify-content: space-evenly;
+}

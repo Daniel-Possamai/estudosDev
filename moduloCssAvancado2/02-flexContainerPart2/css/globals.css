@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    max-width: 400px;
+    border: 1px solid #ccc;
+}
+
+.item{
+    background-color: rgb(195, 145, 241);
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+.justifyContent .item1,
+.justifyContent .item3{
+    width: 80px;
+}

@@ -1,0 +1,31 @@
+.container{
+    height: 130px;
+}
+
+.flexStart{
+    align-items: flex-start;
+}
+
+.flexEnd{
+    align-items: flex-end;
+}
+
+.center{
+    align-items: center;
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+.baseLine{
+    align-items: baseline;
+}
+
+.baseLine .item{
+    flex: 1;
+}
+
+.baseLine .item:first-child{
+    padding-top: 20px;
+}
