@@ -1,0 +1,51 @@
+.flex0{
+    /* flex-grow, flex-shrink, flex-basis */
+    flex: 0;
+}
+
+.flex{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+.flex1{
+    flex: 1;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+/* .order .item{
+    flex: 1;
+}
+
+.item.item3{
+    order: 1;
+}
+
+.item.item2{
+    order: 2;
+} */
+
+
+.alignSelf .item5{
+    align-self: auto;
+}
+
+.alignSelfStart .item3{
+    align-self: flex-start;
+}
+
+.alignSelfEnd .item3{
+    align-self: flex-end;
+}
+
+.alignSelfCenter .item4{
+    align-self: center;
+}
+
+.alignSelfStretch .item3{
+    align-self: stretch;
+}

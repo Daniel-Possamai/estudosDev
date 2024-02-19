@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    max-width: 400px;
+    border: solid black 1px;
+}
+
+.item{
+    background-color: plum;
+    margin: 5px;
+    text-align: center;
+    font-size: 20px;
+    flex: 1;
+}

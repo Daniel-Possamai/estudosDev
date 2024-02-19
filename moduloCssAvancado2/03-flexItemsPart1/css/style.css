@@ -13,3 +13,40 @@
 .grow3{
     flex-grow: 3;
 }
+
+.basisAuto{
+    flex-basis: auto;
+}
+
+.basis0{
+    flex-basis: 0;
+}
+
+.basis100{
+    flex-basis: 100px;
+}
+
+.basis200{
+    flex-basis: 200px;
+}
+
+.basis300{
+    flex-basis: 300px;
+}
+
+.shrink1{
+    flex-shrink: 1;
+}
+
+.shrink0{
+    flex-shrink: 0;
+}
+
+.shrink .item{
+    width: 200px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
