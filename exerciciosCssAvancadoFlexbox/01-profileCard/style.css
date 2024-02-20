@@ -1,0 +1,21 @@
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    color: hsl(227, 10%, 46%);
+    font-family: Kumbh Sans;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 3%;
+    justify-content: center;
+    align-items: center;
+}
