@@ -30,6 +30,10 @@ body{
     border-bottom: solid hsl(227, 10%, 46%);
 }
 
+.cidade{
+    margin-bottom: 50px;
+}
+
 .containerFoto img{
     width: 70px;
     border-radius: 90;
@@ -45,3 +49,21 @@ body{
     color: hsl(227, 10%, 46%);
 }
 
+.containerInfo{
+    border-top: solid hsl(227, 10%, 82%);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.quantidade{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+.tipo{
+    margin-top: 0px;
+}
