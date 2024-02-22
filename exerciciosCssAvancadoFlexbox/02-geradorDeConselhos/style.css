@@ -33,7 +33,7 @@ body{
 .numeroConselho{
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 5px;
+    font-size: 10px;
     color: hsl(150, 100%, 66%);
     margin-top: 10%;
 }
@@ -58,3 +58,35 @@ body{
 
 
 /* Responsivo */
+
+@media(max-width: 425px){
+    .container{
+        display: block;
+        width: 270px;
+        height: 250px;
+    }
+
+    .numeroConselho{
+        display: block;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .conselho{
+        display: block;
+        text-align: center;
+        height: 100%;
+    }
+    
+    .divisor{
+        width: 250px;
+        margin-top: -140px;
+        margin-bottom: 0px;
+        
+    }
+
+    .gerarConselho{
+        margin-top: 0px;
+        margin-left: 100px;
+    }
+}
