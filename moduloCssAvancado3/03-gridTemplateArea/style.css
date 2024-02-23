@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho{
+    background-color: aquamarine;
+}
+
+.menu{
+    background-color: cornflowerblue;
+}
+
+.secaoPrincipal{
+    background-color: hotpink;
+}
+
+.aside{
+    background-color: orangered;
+}
+
+.rodape{
+    background-color: green;
+}
+
+
+.container{
+    display: grid;
+    /* grid-template-areas: 
+    "cabecalho cabecalho cabecalho"
+    "menu secaoPrincipal aside"
+    "rodape rodape rodape"; */
+    grid: 
+    "cabecalho cabecalho cabecalho" 30px
+    "menu secaoPrincipal aside" 120px
+    "rodape rodape rodape" 40px / 160px auto 160px; 
+}
+
+.cabecalho{
+    grid-area: cabecalho;
+}
+
+.menu{
+    grid-area: menu;
+}
+
+.secaoPrincipal{
+    grid-area: secaoPrincipal;
+}
+
+.aside{
+    grid-area: aside;
+}
+
+.rodape{
+    grid-area: rodape;
+}

@@ -1,0 +1,80 @@
+.verdeClaro{
+    background-color: aquamarine;
+}
+
+.azul{
+    background-color: cornflowerblue;
+}
+
+.rosa{
+    background-color: hotpink;
+}
+
+.laranjaEscuro{
+    background-color: orangered;
+}
+
+.verdeForte{
+    background-color: green;
+}
+
+.marrom{
+    background-color: burlywood;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 15px;
+}
+
+.verdeClaro{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* grid-column: 1 / 3;
+
+    grid-column: 1 / span 2; */
+    /* span é expanda (expanda tantas colunas) */
+
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    /* grid-row: 1 / 3; */
+
+
+    /* 
+         grid-row-start
+         grid-column-start
+         grid-row-end
+         grid-column-end
+    */
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+/* .span{
+    grid-column: 1 / span 2;
+} */
+/* Se já tiver elementos ocupando o espaço o grid vai qubrar a linha e ira para baixo */
+
+
+
+.azul{
+    grid-area: 1 / 3 / 1 / 6;
+}
+
+.rosa{
+    grid-area: 3 / 1 / 3 / 3;
+}
+
+.laranjaEscuro{
+    grid-area: 2 / 3 / 4 / 5;
+}
+
+.verdeForte{
+    grid-area: 2 / 5 / 2 / 5;
+}
+
+.marrom{
+    grid-area: 3 / 5 / 3 / 5;
+}
