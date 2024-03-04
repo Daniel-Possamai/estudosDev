@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Land Page</title>
-    <link rel="stylesheet" href="src/reset.css">
-    <link rel="stylesheet" href="src/variables.css">
-    <link rel="stylesheet" href="src/style.css">
-    <link rel="stylesheet" href="src/menu.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/menu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/fontAwesome.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/css/fontAwesome.css">
 </head>
+
 <body>
 
-    <header class="header">1</header>
+    <header class="header">
+        <div class="headerContainer">
+            <a href="/">
+                <h1 class="logo">Agência XYZ</h1>
+            </a>
+
+            <nav>
+                <input type="checkbox" id="menuHamburguer" />
+                <label for="menuHamburguer">
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <section class="hero">2</section>
     <section class="about">3</section>
     <section class="services">4</section>
     <section class="projects">5</section>
     <footer class="footer">6</footer>
-    
+
 </body>
+
 </html>
