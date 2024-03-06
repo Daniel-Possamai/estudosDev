@@ -31,9 +31,9 @@
     "menu secaoPrincipal aside"
     "rodape rodape rodape"; */
     grid: 
-    "cabecalho cabecalho cabecalho" 30px
-    "menu secaoPrincipal aside" 120px
-    "rodape rodape rodape" 40px / 160px auto 160px; 
+    "cabecalho cabecalho cabecalho" 70px
+    "menu secaoPrincipal aside" 150px
+    "rodape rodape rodape" 70px / 150px auto 150px; 
 }
 
 .cabecalho{

@@ -9,11 +9,11 @@ body{
     display: grid;
     grid-template-areas: 
     "header header header header"
-    "hero hero hero hero "
-    "about about about about "
-    "services services services services "
-    "projects projects projects projects "
-    "footer footer footer footer ";
+    "hero hero hero hero"
+    "about about about about"
+    "services services services services"
+    "projects projects projects projects"
+    "footer footer footer footer";
     grid-template-columns: repeat(4, 1fr);
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
@@ -92,8 +92,36 @@ body{
 
 .about{
     grid-area: about;
-    background-color: blue;
+    display: grid;
+    grid-template-columns: 450px 450px;
+    background-color: #fff;
 }
+
+.about .item{
+    padding: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.about .image{
+    height: 100%;
+    width: 100%;
+}
+
+.about .image.right{
+    background: url(../images/bridge.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.about .image.left{
+    background: url(../images/sky.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 
 /* SERVICES */
 
