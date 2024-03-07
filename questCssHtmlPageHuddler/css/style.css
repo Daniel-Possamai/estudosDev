@@ -58,3 +58,14 @@ html{
     background-color: hsl(300, 69%, 71%);
 
 }
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.fa-comment-dots{
+    margin: 0 10px 0 10px;
+    font-size: 2em;
+}
