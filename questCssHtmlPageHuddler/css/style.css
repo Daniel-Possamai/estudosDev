@@ -1,0 +1,60 @@
+html{
+    padding: 3% 4%;
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-size: contain;
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+}
+
+
+.header{
+    font-family: "Poppins", sans-serif;
+}
+
+.hero{
+    font-family: "Open Sans", sans-serif;;
+}
+
+.ilustration a{
+    padding: 15px;
+    background-color: white;
+}
+
+.ilustration img{
+    width: 55%;
+}
+
+.ilustration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.text a{
+    text-align: center;
+    width: 150px;
+    border-radius: 20px;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in-out;
+}
+
+.text h2{
+    font-size: 2.5em;
+}
+
+.text p{
+    margin: 3% 0 3% 0;
+}
+
+.text a:hover{
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+
+}
