@@ -1,6 +1,6 @@
 # ESTUDOS DEV 📚
 
-Este repositório foi criado para armazenar todo tipo de conhecimento, experiência e testes durante minha jornada de aprendizado.
+Esse repositório foi criado para armazenar todo tipo de conhecimento, experiência e testes durante minha jornada de aprendizado.
 
 ## Começando 🎫
 
