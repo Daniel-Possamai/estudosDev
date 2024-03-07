@@ -12,6 +12,5 @@ Pode ser usado por todos.
 
 ## Tecnologias utilizadas
 
-* HTML
+* HTML 
 * CSS
-
