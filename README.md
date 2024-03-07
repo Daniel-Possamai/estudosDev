@@ -1,16 +1,16 @@
-# ESTUDOS DEV
+# ESTUDOS DEV 📚
 
 Este repositório foi criado para armazenar todo tipo de conhecimento, experiência e testes durante minha jornada de aprendizado.
 
-## Começando
+## Começando 🎫
 
 Clone o repositório e faça bom uso.
 
-## Uso
+## Uso 🤝
 
 Pode ser usado por todos.
 
-## Tecnologias utilizadas
+## Tecnologias utilizadas 💻
 
 * HTML 
 * CSS
