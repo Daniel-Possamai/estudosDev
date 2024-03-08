@@ -69,3 +69,63 @@ html{
     margin: 0 10px 0 10px;
     font-size: 2em;
 }
+
+.fa-twitter{
+    color: white;
+    margin: 0px 20px;
+}
+
+.fa-instagram{
+    color: white;
+}
+
+.fa-facebook{
+    color: white;
+}
+
+.redesSociais{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media(max-width: 780px){
+    html{
+        background: url(../images/bg-mobile.svg) center center;
+        background-size: cover;
+        background-color: hsl(257, 40%, 49%);
+    }
+
+    .hero .ilustration{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .hero .ilustration img{
+        margin-right: 25%;
+    }
+
+    .text h2{
+        text-align: center;
+        font-size: 2em;
+        width: 70%;
+    }
+
+    .text p{
+        text-align: center;
+        width: 70%;
+    }
+
+    .ilustration a{
+        align-self: center;
+        margin-right: 25%;
+    }
+
+    .footer{
+        justify-self: center;
+        align-self: center;
+        margin: 5% 55% 0 0;
+    }
+}
