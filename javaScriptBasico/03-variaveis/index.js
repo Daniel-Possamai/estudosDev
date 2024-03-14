@@ -7,5 +7,7 @@ let telefonePessoa = "1231231"
 }
 
 console.log(nomePessoa)
-console.log(emailPessoa)
-console.log(telefonePessoa)
+// console.log(emailPessoa)
+// console.log(telefonePessoa)
+
+console.log(nomePessoa)
