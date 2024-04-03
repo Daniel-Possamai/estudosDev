@@ -14,3 +14,4 @@ Pode ser usado por todos.
 
 * HTML 
 * CSS
+* JavaScript
