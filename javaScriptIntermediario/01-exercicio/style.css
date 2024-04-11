@@ -1,0 +1,33 @@
+body{
+    padding: 8%;
+}
+
+body .containterQuadrados{
+    width: 120px;
+    height: 420px;
+    border: 1px solid black;
+    padding: 1%;
+    
+}
+
+body .containterQuadrados .quadrado1{
+    width: 100px;
+    height: 200px;
+}
+
+body .containterQuadrados .quadrado2{
+    width: 100px;
+    height: 200px;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.amarelo{
+    background-color: yellow; 
+}
