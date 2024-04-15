@@ -20,6 +20,7 @@ body{
 
 .imagemContainter.zero{
     background-image: url(./images/pexels-ambareesh-sridhar-18954213.jpg);
+    opacity: 0;
 }
 
 .imagemContainter.um{
