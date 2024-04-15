@@ -1,0 +1,70 @@
+
+body{
+    padding: 4%;
+}
+
+.containterCarrosel{
+    width: 800px;
+    height: 400px;
+}
+
+.imagemContainter{
+    padding: 3%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(./images/pexels-ambareesh-sridhar-18954213.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+.imagemContainter .voltaSlide{
+    position: absolute; 
+    border: none;
+    font-size: 36px;
+    background: none;
+    top: 200px;
+    color: #ffffff47;
+    left: 5px;
+    transition: 0.5s;
+}
+
+.imagemContainter .passaSlide{
+    position: absolute; 
+    border: none;
+    font-size: 40px;
+    background: none;
+    top: 200px;
+    color: #ffffff47;
+    right: 5px;
+    transition: 0.5s;
+}
+
+.imagemContainter button:hover{
+    cursor: pointer;
+    color: #ffffffc0
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 350px;
+    padding: 1%;
+    top: 30px;
+    left: 100px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #fff;
+    
+}
+
+.infoContainer p{
+    text-align: justify;
+}
+
+.infoContainer a{
+    text-decoration: none;
+    color: red;
+}
+
