@@ -9,6 +9,56 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 35px;
     padding: 3%;
 }
+
+.containterPrincipal .infoContainter{
+    color: #fff;
+    width: 50%;
+}
+
+.containterPrincipal .infoContainter p{
+    width: 75%;
+}
+
+.containterPrincipal .containterFormulario{
+    width: 50%;
+}
+
+.containterPrincipal .containterFormulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 3%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.containterPrincipal .containterFormulario form input{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 1%;
+    border: 1px solid #000;
+}
+
+.containterPrincipal .containterFormulario form textarea{
+    border-radius: 5px;
+    padding: 2%;
+    border: 1px solid #000;
+}
+
+.containterPrincipal .containterFormulario form p {
+    color: #000;
+    font-weight: 400;
+}
+
+#btnEnviar{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3CCC87;
+}
+
+
