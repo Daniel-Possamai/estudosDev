@@ -61,4 +61,8 @@ body{
     background-color: #3CCC87;
 }
 
+#btnEnviar:hover{
+    cursor: pointer;
+}
+
 
