@@ -23,6 +23,7 @@
 let btnSomar = document.getElementById('btnCalcular');
 let alturas = document.getElementById('altura');
 let pesos = document.getElementById('peso');
+let resposta = document.getElementById('resposta');
 
 
 function calularImc(altura, peso){
@@ -34,6 +35,6 @@ function calularImc(altura, peso){
 }
 
 btnSomar.addEventListener('click', function(){
-    calularImc(alturas, pesos);
+    resposta.innerHTML += calularImc(alturas, pesos) + "<br>"; 
 });
 
