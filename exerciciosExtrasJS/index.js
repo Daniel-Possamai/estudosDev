@@ -17,3 +17,23 @@
 // }
 
 // console.log(somar(numero1, numero2));
+
+// Exercício final: Calculadora de IMC (Índice de Massa Corporal)
+
+let btnSomar = document.getElementById('btnCalcular');
+let alturas = document.getElementById('altura');
+let pesos = document.getElementById('peso');
+
+
+function calularImc(altura, peso){
+    let valorAltura = parseFloat(altura.value);
+    let valorPeso = parseFloat(peso.value);
+    let imc = valorPeso / (valorAltura * valorAltura);
+    console.log("Imc é: " + imc);
+    return imc;
+}
+
+btnSomar.addEventListener('click', function(){
+    calularImc(alturas, pesos);
+});
+
