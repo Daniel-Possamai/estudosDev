@@ -26,7 +26,7 @@ let pesos = document.getElementById('peso');
 let resposta = document.getElementById('resposta');
 
 
-function calularImc(altura, peso){
+function calcularImc(altura, peso){
     let valorAltura = parseFloat(altura.value);
     let valorPeso = parseFloat(peso.value);
     let imc = valorPeso / (valorAltura * valorAltura);
@@ -35,6 +35,6 @@ function calularImc(altura, peso){
 }
 
 btnSomar.addEventListener('click', function(){
-    resposta.innerHTML += calularImc(alturas, pesos) + "<br>"; 
+    resposta.innerHTML += calcularImc(alturas, pesos) + "<br>"; 
 });
 
