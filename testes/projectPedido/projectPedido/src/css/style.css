@@ -1,0 +1,105 @@
+.container img{
+    display: none;
+    width: 150px;
+    height: 150px;
+    animation: subirDescer 3s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes subirDescer{
+    0%{
+        top: 50%;
+        opacity: 100%;
+        transform: rotateZ(-30deg);
+    }
+    100%{
+        top: 25%;
+        opacity: 0%;
+        transform: rotateZ(260deg);
+    }
+}
+
+.container{
+    width: 1280px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#imgEsquerda{
+    position: absolute;
+    right: 15%;
+}
+
+#imgDireita{
+    position: absolute;
+    left: 15%;
+}
+
+.container .conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+    height: 250px;
+    padding: 3%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.75);
+}
+
+.container .conteudo h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.container .conteudo h2 span{
+    color: #EF4D4D;
+}
+
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: #EF4D4D;
+    padding: 10px;
+    border-radius: 25px;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.476);
+}
+
+#btnNao{
+    transition: 0.5s;
+}
+
+#sushizada{
+    display: none;
+    margin-top: 65px;
+    font-size: 60px;
+    font-weight: bold;
+    animation: mudaCorTexto 1.5s infinite alternate-reverse ease-in-out;
+}
+
+
+@keyframes mudaCorTexto{
+    0%{color: red;}
+    25%{color: yellow;}
+    50%{color: green;}
+    75%{color: blue;}
+    100%{color: hotpink;}
+}
