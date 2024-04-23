@@ -3,7 +3,7 @@ let imgsSushi = divContainter.querySelectorAll('img');
 let btnSim = document.getElementById('btnSim');
 let btnNao = document.getElementById('btnNao');
 
-btnNao.addEventListener('click', ()=>{
+btnNao.addEventListener('mouseover', ()=>{
     var newPosY = Math.floor(Math.random() * 500);
     var newPosX = Math.floor(Math.random() * 500);
     btnNao.style.position = 'absolute';
