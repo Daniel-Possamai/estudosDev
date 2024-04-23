@@ -1,6 +1,21 @@
 .container img{
-    width: 40px;
-    height: 40px;
+    display: none;
+    width: 150px;
+    height: 150px;
+    animation: subirDescer 3s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes subirDescer{
+    0%{
+        top: 50%;
+        opacity: 100%;
+        transform: rotateZ(-30deg);
+    }
+    100%{
+        top: 25%;
+        opacity: 0%;
+        transform: rotateZ(260deg);
+    }
 }
 
 .container{
@@ -10,6 +25,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+#imgEsquerda{
+    position: absolute;
+    right: 15%;
+}
+
+#imgDireita{
+    position: absolute;
+    left: 15%;
 }
 
 .container .conteudo{
@@ -30,6 +56,10 @@
     font-weight: bold;
 }
 
+.container .conteudo h2 span{
+    color: #EF4D4D;
+}
+
 .btns{
     width: 100%;
     display: flex;
@@ -44,10 +74,12 @@
     padding: 4%;
     border-radius: 25px;
     transition: 0.4s;
+    font-weight: bold;
 }
 
 .btn:hover{
     cursor: pointer;
     transform: scale(1.05);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.476);
 }
 
