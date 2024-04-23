@@ -86,3 +86,20 @@
 #btnNao{
     transition: 0.5s;
 }
+
+#sushizada{
+    display: none;
+    margin-top: 65px;
+    font-size: 60px;
+    font-weight: bold;
+    animation: mudaCorTexto 1.5s infinite alternate-reverse ease-in-out;
+}
+
+
+@keyframes mudaCorTexto{
+    0%{color: red;}
+    25%{color: yellow;}
+    50%{color: green;}
+    75%{color: blue;}
+    100%{color: hotpink;}
+}
