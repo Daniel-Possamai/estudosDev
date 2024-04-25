@@ -25,8 +25,8 @@ let pessoas = [
 // console.log(pessoasComIdadeDe21Anos);
 
 //Usando Arrow function
-let pessoasComIdadeDe21Anos = pessoas.filter((pessoa)=>{
-    return pessoa.idade === 21;
-})
+// let pessoasComIdadeDe21Anos = pessoas.filter((pessoa)=>{
+//     return pessoa.idade === 21;
+// })
 
-console.log(pessoasComIdadeDe21Anos);
+// console.log(pessoasComIdadeDe21Anos);
