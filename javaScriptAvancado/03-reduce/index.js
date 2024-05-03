@@ -4,7 +4,7 @@ let ordens = [
     { cliente: 'Silvio', tipo: 'venda', quantidade: 89, ativo: 'RTMC83'}
 ]
 
-// let quantidadeDeOrdens = 0;
+    // let quantidadeDeOrdens = 0;
 
 // for (let i = 0; i < ordens.length; i++){
 //     quantidadeDeOrdens += ordens[i].quantidade;

@@ -1,0 +1,37 @@
+/* Colinha */
+/* grid-area: 1 / 1 / 3 / 3; /* linha de início / coluna de início / linha de fim / coluna de fim */ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imagens{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
+
+.image1{
+    width: 100%;
+    height: 100%;
+    grid-area: 1 / 2;
+}
+
+.image2{
+    width: 100%;
+    height: 100%;
+    grid-area: 2 / 1 / 2 / 2;
+}
+
+@media screen and (max-width: 1020px) {
+    /* Aplicando responsividade ao grid */
+    .imagens{
+        grid-template-columns: 1fr;
+    }
+
+    .image1, .image2{
+        grid-column: 1;
+    }
+}
