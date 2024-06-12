@@ -44,9 +44,15 @@ body{
     margin: 5% 10% 5% 10%;
 }
 
+.divisor{
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #fff;
+}
+
 
 .gerarConselho{
-    margin-top: 60px;
+    margin-top: 70px;
     font-weight: bold;
     border: none;
     background-color: hsl(150, 100%, 66%);
@@ -79,10 +85,10 @@ body{
     }
     
     .divisor{
-        width: 250px;
+        width: 100%;
+        height: 1px;
         margin-top: -140px;
         margin-bottom: 0px;
-        
     }
 
     .gerarConselho{
