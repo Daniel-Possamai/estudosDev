@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -28,6 +29,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    position: relative;
 }
 
 .numeroConselho{
@@ -36,12 +38,14 @@ body{
     font-size: 10px;
     color: hsl(150, 100%, 66%);
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .conselho{
     text-align: center;
     font-weight: bold;
     margin: 5% 10% 5% 10%;
+    height: 100px;
 }
 
 .divisor{
@@ -52,14 +56,16 @@ body{
 
 
 .gerarConselho{
-    margin-top: 70px;
     font-weight: bold;
     border: none;
     background-color: hsl(150, 100%, 66%);
     width: 60px;
     height: 50px;
     border-radius: 50%;
-    transform: translateY(50%);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -91,8 +97,4 @@ body{
         margin-bottom: 0px;
     }
 
-    .gerarConselho{
-        margin-top: 0px;
-        margin-left: 100px;
-    }
 }
