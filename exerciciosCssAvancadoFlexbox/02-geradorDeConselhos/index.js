@@ -1,5 +1,5 @@
 let idConselho = document.getElementById('idConselho')
-let conselho = document.getElementById('conselho')
+let conselhoTxt = document.getElementById('conselho')
 let btnGerar = document.getElementById('gerar')
 
 async function consultandoConselho(){
@@ -10,27 +10,26 @@ async function consultandoConselho(){
 }
 
 
-async function test(){
-    const conselhoG = await consultandoConselho()
-    const tt = `ID: ${conselhoG.slip.id} Conselho: ${conselhoG.slip.advice}`
+async function conselhoGerado(){
+    const conselho = await consultandoConselho()
+    const tt = `ID: ${conselho.slip.id} Conselho: ${conselho.slip.advice}`
     console.log(tt)
-    
+
+    idConselho.innerText = conselho.slip.id
+    conselhoTxt.innerText = conselho.slip.advice
+
+
 }
 
-test()
-
-
-
-// async function gerarConselho(){
-//     try{
-//         const result = await Promise.all([
-        
-            
-//         ])
-        
-//     } catch(error){
-//         console.log(error)
-//     }
-// }
-
+btnGerar.addEventListener('click', async () =>{
+    try{
+        const result = await Promise.all([
+        consultandoConselho(),
+        conselhoGerado()
+    ])
+    console.log(result)
+    } catch (error){
+        console.log(error)
+    }
+})
 
