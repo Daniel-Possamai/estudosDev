@@ -56,9 +56,8 @@ body{
 
 
 .gerarConselho{
-    font-weight: bold;
     border: none;
-    background-color: hsl(150, 100%, 66%);
+    background-color: hsl(150, 100%, 50%);
     width: 60px;
     height: 50px;
     border-radius: 50%;
@@ -66,6 +65,16 @@ body{
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: font-weight .5s ease, background-color .5s ease, top 0.02s ease;
+}
+
+.gerarConselho:hover{
+    font-weight: bold;
+    background-color: hsl(150, 100%, 60%);
+}
+
+.gerarConselho:active{
+    top: 99%;
 }
 
 
