@@ -5,8 +5,10 @@ export default function Card(props){
     
     return (
         <div className="card">
-            <h3>{props.title}</h3>
-            <p>esse é um txt</p>
+
+            {props.children}
+            {/* <h3>{props.title}</h3>
+            <p>esse é um txt</p> */}
         </div>
     )
 }

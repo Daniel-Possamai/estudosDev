@@ -5,11 +5,15 @@ import Card from "./components/card/card"
 function App() {
   return (
     <>
-    <Card title='titulo card 1'/>
-    <Card title='titulo card 2'/>
-    <Card title='titulo card 3'/>
-    </>
-  );
+      <Card>
+        <h3>Titulo</h3>
+        <p>esse é um txt</p>
+      </Card>
+
+        <Card />
+        <Card />
+      </>
+      );
 }
 
-export default App;
+      export default App;
