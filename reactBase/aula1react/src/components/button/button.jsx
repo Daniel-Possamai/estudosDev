@@ -1,9 +1,13 @@
 import "./button.css"
 
-function Button(){
+function Button(props){
     return(
-        <button className={ "btn" }>Click me</button>
+        <button className={ "btn" }>{props.label}</button>
     )
+}
+
+Button.defaultProps = {
+    label: "Click Me"
 }
 
 export default Button;
