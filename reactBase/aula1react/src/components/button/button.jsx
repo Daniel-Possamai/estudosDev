@@ -1,8 +1,13 @@
 import "./button.css"
 
+
+const sayHello = () => {
+    console.log("hellou")
+}
+
 function Button(props){
     return(
-        <button className={ "btn" }>{props.label}</button>
+        <button onClick={sayHello} className={ "btn" }>{props.label}</button>
     )
 }
 

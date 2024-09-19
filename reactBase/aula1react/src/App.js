@@ -17,9 +17,9 @@ function App() {
         <Card />
         */}
 
-        {/* <Button label='Baixar CV'/>
+        {/* <Button label='Baixar CV'/> */}
 
-        <Button/> */}
+        <Button/>
 
         {/* <Cards/> */}
 
