@@ -8,7 +8,11 @@ export default function Home() {
                 <h1>Bem vindo ao ShowCase React</h1>
                 <p>Projetos, e estudos</p>
             </div>
-            <a href="/"></a>
+            <div className="box-pages">
+                <a className="link-page" href="/todo">ToDo List</a>
+                <a className="link-page" href="/todo">Basic Calculator</a>
+                <a className="link-page" href="/todo">App de clima</a>                
+            </div>
         </div>
     )
 }
