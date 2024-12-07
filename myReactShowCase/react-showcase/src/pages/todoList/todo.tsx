@@ -92,12 +92,14 @@ const Todo: React.FC = () => {
                     <h1>ToDo List</h1>
                     <AddCircleOutlineIcon className="add-task" onClick={() => handleOpenModal()} />
                 </div>
-                <div className="tasks">
-                    {tasks.map((task) => (
-                        <div key={task.id} className="task" onClick={() => handleOpenModal(task.task)}>
-                            {task.task}
-                        </div>
-                    ))}
+                <div className="box-tasks">
+                    <div className="tasks">
+                        {tasks.map((task) => (
+                            <div key={task.id} className="task" onClick={() => handleOpenModal(task.task)}>
+                                {task.task}
+                            </div>
+                        ))}
+                    </div>
                 </div>
                 {isModalOpen && <Modal onClose={handleCloseModal} onSave={handleSaveTask} task={selectedTask} />}
             </div>
