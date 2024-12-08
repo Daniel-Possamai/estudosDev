@@ -1,7 +1,11 @@
 import './boxSelectApp.scss'
 
 
-export default function BoxSelectApp() {
+interface BoxSelectAppProps{
+    links: { href: string, text: string }[];
+}
+
+export default function BoxSelectApp({links}: BoxSelectAppProps) {
     return (
         <div className='container-home-englobador'>
             <div className='container-titulo'>
@@ -9,9 +13,9 @@ export default function BoxSelectApp() {
                 <p>Projetos, e estudos</p>
             </div>
             <div className="box-pages">
-                <a className="link-page" href="/todo">ToDo List</a>
-                <a className="link-page" href="/todo">Basic Calculator</a>
-                <a className="link-page" href="/todo">App de clima</a>                
+                {links.map((link, index) => (
+                    <a key={index} className="link-page" href={link.href}>{link.text}</a>
+                ))}             
             </div>
         </div>
     )
