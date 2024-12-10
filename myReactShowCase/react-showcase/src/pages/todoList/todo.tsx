@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './todo.scss';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 interface Task {
     id: string;
@@ -71,6 +72,9 @@ const Todo: React.FC = () => {
     const handleSaveTask = async (newTask: Task) => {
         const updatedTasks = [...tasks, newTask];
         setTasks(updatedTasks);
+    
+    
+
 
         // Atualizar dados no JSONBin
         const response = await fetch('https://api.jsonbin.io/v3/b/672bfe00ad19ca34f8c596a2', {
@@ -85,6 +89,11 @@ const Todo: React.FC = () => {
         console.log(data);
     };
 
+    const handleDeleteTask = (taskId: number) => {
+        const updatedTasks = tasks.filter(task => task.id !== taskId);
+        setTasks(updatedTasks);
+    };
+
     return (
         <div className="box-todo-englobador">
             <div className="box-todo">
@@ -97,6 +106,7 @@ const Todo: React.FC = () => {
                         {tasks.map((task) => (
                             <div key={task.id} className="task" onClick={() => handleOpenModal(task.task)}>
                                 {task.task}
+                                 <DeleteIcon className="delete-task" onClick={() => handleDeleteTask(task.id)} />
                             </div>
                         ))}
                     </div>
